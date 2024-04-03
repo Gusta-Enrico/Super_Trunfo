@@ -47,7 +47,7 @@ public class Jogo {
     }
     
     public void iniciar() {
-        List<Cartas> baralho = Fabrica.criarCartas();
+        List<Cartas> baralho = Fabrica.criarCartas();//erro necessario correção
         Collections.shuffle(baralho);
 
         

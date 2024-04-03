@@ -44,7 +44,7 @@ public class Fabrica {
     }
     
     private int quantidade = 12;
-    
+    //erro necessario correção
     public static List<Cartas> criarCartas(int quantidade) {
         List<Cartas> cartas = new ArrayList<>();
         for (int i = 0; i < quantidade; i++) {
